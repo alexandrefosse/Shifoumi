@@ -1,7 +1,40 @@
 h1{
     text-align: center;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+body{
+    background-color: #121212 ;
+    
 }
 
 .choice-btn {
-    text-decoration: blue;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.choice-btn:hover {
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer ;
+    
+    
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: aqua;
+    
 }
