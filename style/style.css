@@ -7,7 +7,6 @@ h1{
 
 body{
     background-color: #121212 ;
-    
 }
 
 .choice-btn {
@@ -28,8 +27,6 @@ body{
     border-radius: 10px;
     border: none;
     cursor: pointer ;
-    
-    
 }
 
 div {
@@ -38,7 +35,6 @@ div {
     gap: 50px;
     color: aqua;
     font-family: cursive;
-    
 }
 
 .reset-btn {
@@ -50,5 +46,4 @@ div {
     display: flex;
     justify-content: center;
     border-radius: 10px;
-
 }
