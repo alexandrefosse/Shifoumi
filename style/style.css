@@ -2,6 +2,7 @@ h1{
     text-align: center;
     color: aliceblue;
     font-family: cursive;
+    font-size: 50px;
 }
 
 body{
@@ -20,7 +21,7 @@ body{
 }
 
 .choice-btn:hover {
-    background-color: cornflowerblue;
+    background-color: blueviolet;
     color: white;
     font-weight: bold;
     padding: 10px;
@@ -36,5 +37,18 @@ div {
     justify-content: center;
     gap: 50px;
     color: aqua;
+    font-family: cursive;
     
+}
+
+.reset-btn {
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+
 }

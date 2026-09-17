@@ -11,11 +11,19 @@
     <h1>Bienvenue sur le Shifumi</h1>
 
     <div>
-        <button class="choice-btn" aria-label="pierre"  type="button"><img src="image/pierre.png"  alt="image de pierre"  width="100"></button>
-        <button class="choice-btn" aria-label="feuille" type="button"><img src="image/feuille.png" alt="image de feuille" width="100"></button>
-        <button class="choice-btn" aria-label="ciseaux" type="button"><img src="image/ciseaux.png" alt="image de ciseaux" width="100"></button>
+        <button class="choice-btn" id="btn-pierre"  type="button"><img src="image/pierre.png"  alt="image de pierre"  width="200"></button>
+        <button class="choice-btn" id="btn-feuille" type="button"><img src="image/feuille.png" alt="image de feuille" width="200"></button>
+        <button class="choice-btn" id="btn-ciseaux" type="button"><img src="image/ciseaux.png" alt="image de ciseaux" width="200"></button>
     </div>
-    
+    <div>
+        <p>Victoires : <span id="nb-victoire"></span></p>
+        <p>Défaites : <span id="nb-defaite"></span></p>
+    </div>
+    <div>
+        <button class="reset-btn" id="btn-reset" type="button">Réinitialiser les scores</button>
+    </div>
+
+
 
 </body>
 </html>
